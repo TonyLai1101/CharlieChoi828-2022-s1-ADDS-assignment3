@@ -1,4 +1,5 @@
 #include "Toolbox.h"
+#include "Computer.h"
 
 Toolbox::Toolbox()
 {
