@@ -8,7 +8,7 @@ class Toolbox: public Computer
 {
     public:
         Toolbox();
-        char makeMove();
+        virtual char makeMove();
 };
 
 #endif

@@ -8,7 +8,7 @@ class Crescendo: public Computer
 {
     public:
         Crescendo();
-        char makeMove();
+        virtual char makeMove();
         int count=0;
 };
 

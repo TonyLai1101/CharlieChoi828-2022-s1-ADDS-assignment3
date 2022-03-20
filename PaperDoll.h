@@ -8,7 +8,7 @@ class PaperDoll: public Computer
 {
     public:
         PaperDoll();
-        char makeMove();
+        virtual char makeMove();
         int count=0;
 };
 

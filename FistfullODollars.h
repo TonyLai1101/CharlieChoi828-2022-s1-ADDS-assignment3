@@ -8,7 +8,7 @@ class FistfullODollars: public Computer
 {
     public:
         FistfullODollars();
-        char makeMove();
+        virtual char makeMove();
         int count=0;
 };
 

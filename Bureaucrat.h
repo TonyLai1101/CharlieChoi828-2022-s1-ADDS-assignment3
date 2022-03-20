@@ -8,7 +8,7 @@ class Bureaucrat: public Computer
 {
     public:
         Bureaucrat();
-        char makeMove();
+        virtual char makeMove();
 };
 
 #endif

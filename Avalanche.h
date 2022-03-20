@@ -8,7 +8,7 @@ class Avalanche: public Computer
 {
     public:
         Avalanche();
-        char makeMove();
+        virtual char makeMove();
 };
 
 #endif

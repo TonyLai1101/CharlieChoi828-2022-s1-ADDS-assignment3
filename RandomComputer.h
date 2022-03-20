@@ -8,7 +8,7 @@ class RandomComputer: public Computer
 {
     public:
         RandomComputer();
-        char makeMove();
+        virtual char makeMove();
 };
 
 #endif
