@@ -8,8 +8,9 @@ using namespace std;
 
 class Tournament
 {
-    Tournament();
-    Player * run(array<Player *, 8>  competitors);
+    public:
+        Tournament();
+        Player * run(array<Player *, 8>  competitors);
 };
 
 #endif
