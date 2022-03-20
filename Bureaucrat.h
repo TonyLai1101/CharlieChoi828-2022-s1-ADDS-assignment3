@@ -7,8 +7,8 @@ using namespace std;
 class Bureaucrat: public Computer
 {
     public:
-        Bureaucrat();
-        virtual char makeMove();
+        
+        char makeMove();
 };
 
 #endif
