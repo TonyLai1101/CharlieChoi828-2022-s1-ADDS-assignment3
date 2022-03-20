@@ -9,6 +9,7 @@ class FistfullODollars: public Computer
     public:
         FistfullODollars();
         char makeMove();
+        int count=0;
 };
 
 #endif

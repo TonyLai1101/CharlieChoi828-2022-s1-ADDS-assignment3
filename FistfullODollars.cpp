@@ -8,8 +8,7 @@ FistfullODollars::FistfullODollars()
 char FistfullODollars::makeMove()
 {
     char move_array[3]={'R','P','P'};
-    int i=0;
-    i=i%3;
-    i++;
-    return move_array[i-1];
+    count=count%3;
+    count++;
+    return move_array[count-1];
 }

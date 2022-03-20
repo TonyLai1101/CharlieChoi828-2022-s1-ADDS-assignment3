@@ -9,6 +9,7 @@ class Crescendo: public Computer
     public:
         Crescendo();
         char makeMove();
+        int count=0;
 };
 
 #endif

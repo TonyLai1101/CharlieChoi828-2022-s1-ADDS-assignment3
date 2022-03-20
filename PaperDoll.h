@@ -9,6 +9,7 @@ class PaperDoll: public Computer
     public:
         PaperDoll();
         char makeMove();
+        int count=0;
 };
 
 #endif
