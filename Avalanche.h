@@ -7,8 +7,8 @@ using namespace std;
 class Avalanche: public Computer
 {
     public:
-        Avalanche();
-        virtual char makeMove();
+        
+      char makeMove();
 };
 
 #endif
