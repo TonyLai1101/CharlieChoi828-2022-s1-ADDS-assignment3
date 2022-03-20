@@ -17,7 +17,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     Player * final1;
     Player * final2;
     Player * winner;
-    int P1win, P2win, P3win, P4win, P5win, P6win, P7win, P8win, semi1win, semi2win, semi3win, semi4win, final1win, final2win;
+    int P1win=0, P2win=0, P3win=0, P4win=0, P5win=0, P6win=0, P7win=0, P8win=0, semi1win=0, semi2win=0, semi3win=0, semi4win=0, final1win=0, final2win=0;
 
     //round 1
     for (int i=0;i<5;i++)
