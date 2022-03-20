@@ -17,11 +17,12 @@ Player * Tournament::run(array<Player *, 8> competitors)
     Player * final1;
     Player * final2;
     Player * winner;
-    int P1win=0, P2win=0, P3win=0, P4win=0, P5win=0, P6win=0, P7win=0, P8win=0, semi1win=0, semi2win=0, semi3win=0, semi4win=0, final1win=0, final2win=0;
+    int P1win, P2win, P3win, P4win, P5win, P6win, P7win, P8win, semi1win, semi2win, semi3win, semi4win, final1win, final2win;
 
     //round 1
     for (int i=0;i<5;i++)
     {
+        P1win=0, P2win=0;
         result=ref.refGame(competitors[0], competitors[1]);
 
         if (result=='W')
@@ -46,6 +47,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round2
     for (int i=0;i<5;i++)
     {
+        P3win=0, P4win=0;
         result=ref.refGame(competitors[2], competitors[3]);
 
         if (result=='W')
@@ -70,6 +72,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round3
     for (int i=0;i<5;i++)
     {
+        P5win=0, P6win=0;
         result=ref.refGame(competitors[4], competitors[5]);
 
         if (result=='W')
@@ -94,6 +97,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round4
      for (int i=0;i<5;i++)
     {
+        P7win=0, P8win=0;
         result=ref.refGame(competitors[6], competitors[7]);
 
         if (result=='W')
@@ -118,6 +122,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round5
     for (int i=0;i<5;i++)
     {
+        semi1win=0, semi2win=0;
         result=ref.refGame(semiFinal1, semiFinal2);
 
         if (result=='W')
@@ -142,6 +147,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round6
     for (int i=0;i<5;i++)
     {
+        semi3win=0, semi4win=0;
         result=ref.refGame(semiFinal3, semiFinal4);
 
         if (result=='W')
@@ -166,6 +172,7 @@ Player * Tournament::run(array<Player *, 8> competitors)
     //round7
     for (int i=0;i<5;i++)
     {
+        final1win=0, final2win=0;
         result=ref.refGame(final1, final2);
 
         if (result=='W')
